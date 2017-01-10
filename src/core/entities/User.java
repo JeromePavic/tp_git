@@ -1,18 +1,19 @@
 package entities;
 
+import java.util.ArrayList;
+
 public class User {
 
 	private String nom;
 	private String prenom;
 	private String login;
 	private String mot_de_passe;
-	
-	
+
+
 	public User() {
-		super();
+		ArrayList<Droits> arraylist = new ArrayList<Droits>();
 	}
-	
-	
+
 	public User(String nom, String prenom, String login, String mot_de_passe) {
 		super();
 		this.nom = nom;
@@ -20,7 +21,6 @@ public class User {
 		this.login = login;
 		this.mot_de_passe = mot_de_passe;
 	}
-
 
 	public String getNom() {
 		return nom;
@@ -46,5 +46,5 @@ public class User {
 	public void setMot_de_passe(String mot_de_passe) {
 		this.mot_de_passe = mot_de_passe;
 	}
-	
+
 }
