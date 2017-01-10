@@ -1,0 +1,29 @@
+commit 79b7e12f802ce62bc6f4136c4ee87b91902c1558
+Author: Emeline Hourmand <shiro-x3@hotmail.fr>
+Date:   Tue Jan 10 16:35:25 2017 +0100
+
+    modify Doits class
+
+commit 0811fb298697fef92cae3b7a5e22731c33f3ecb4
+Author: Emeline Hourmand <shiro-x3@hotmail.fr>
+Date:   Tue Jan 10 16:17:22 2017 +0100
+
+    add Droits class and modify User class
+
+commit c36220ba72016aed9f7c78ad5fdca11e08b219fd
+Author: JeromePavic <jeromepavic@gmail.com>
+Date:   Tue Jan 10 15:55:46 2017 +0100
+
+    modify Application.xml
+
+commit 69cc9594f31485ffd04c5b2973aaa627aa4e8ea7
+Author: JeromePavic <jeromepavic@gmail.com>
+Date:   Tue Jan 10 15:54:01 2017 +0100
+
+    add .gitlog file, entities package and User class
+
+commit a8ea0a18f0aa564433241e0f351331a5f01322e1
+Author: JeromePavic <jeromepavic@gmail.com>
+Date:   Tue Jan 10 15:43:54 2017 +0100
+
+    creation of tree
