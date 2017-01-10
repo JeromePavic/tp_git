@@ -1,5 +1,7 @@
 package entities;
 
+import java.util.ArrayList;
+
 public class User {
 
 	private String nom;
@@ -7,6 +9,10 @@ public class User {
 	private String login;
 	private String mot_de_passe;
 	
+	
+	public User() {
+		ArrayList<Droits> arraylist = new ArrayList<Droits>(); 
+	}
 	
 	public String getNom() {
 		return nom;
