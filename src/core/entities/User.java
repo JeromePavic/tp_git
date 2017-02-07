@@ -66,5 +66,10 @@ public class User {
 	public void setMot_de_passe(String mot_de_passe) {
 		this.mot_de_passe = mot_de_passe;
 	}
+	
+	public String toString(){
+		return "{\"nom\": \""+nom+"\",\"prenom\": \""+prenom+"\",\"login\": \""+login+"\",\"mot_de_passe\": \""+mot_de_passe+"\",\"arraylist\": ["+arraylist.toString()+" ] }";
+		
+	}
 
 }
