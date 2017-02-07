@@ -1,0 +1,43 @@
+{
+  { 
+    "nom": "Dupond", 
+    "prenom": "Jean",
+    "login": "Dupjea",
+    "mot_de_passe": "12345",
+    "arraylist": [ 
+        {
+            "niveau": "", 
+            "severite": "",
+            "nom": "",
+            "societe": ""
+        }, 
+        {
+            "niveau": "", 
+            "severite": "",
+            "nom": "",
+            "societe": ""
+        }
+     ] 
+  } 
+
+  { 
+    "nom": "Michou", 
+    "prenom": "Isabelle",
+    "login": "Miisa",
+    "mot_de_passe": "98745",
+    "arraylist": [ 
+        {
+            "niveau": "", 
+            "severite": "",
+            "nom": "",
+            "societe": ""
+        }, 
+        {
+            "niveau": "", 
+            "severite": "",
+            "nom": "",
+            "societe": ""
+        }
+     ] 
+  } 
+}
