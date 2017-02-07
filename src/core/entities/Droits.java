@@ -7,6 +7,15 @@ public class Droits {
 	private String nom;
 	private String societe;
 	
+	@Override
+	public String toString() {
+		return "{"
+				+ "\"niveau\": \""+niveau+"\","
+				+ "\"severite\": \""+severite+"\","
+				+ "\"nom\": \""+nom+"\","
+				+ "\"societe\": \""+societe+"\","
+				+ "}";
+	}
 	public int getNiveau() {
 		return niveau;
 	}
