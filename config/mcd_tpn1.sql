@@ -14,11 +14,13 @@ USE TPGIT;
 
 CREATE TABLE user(
         id           int (11) Auto_increment  NOT NULL ,
-        nom          Varchar (25) NOT NULL,
-        prenom       Varchar (25) NOT NULL,
+        numero_employee int (11) NOT NULL ,
+        nom          Varchar (25) NOT NULL ,
+        prenom       Varchar (25) NOT NULL ,
         login        Varchar (25) NOT NULL ,
         mot_de_passe Varchar (25) NOT NULL ,
-        PRIMARY KEY (id )
+        PRIMARY KEY (id ) ,
+        UNIQUE (numero_employee)
 )ENGINE=InnoDB;
 
 

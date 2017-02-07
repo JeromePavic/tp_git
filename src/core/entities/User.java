@@ -4,11 +4,14 @@ import java.util.ArrayList;
 
 public class User {
 
+	private int numero_employee;
 	private String nom;
 	private String prenom;
 	private String login;
 	private String mot_de_passe;
 	private ArrayList<Droits> arraylist;
+
+	
 
 	public User() {
 		arraylist = new ArrayList<Droits>();
@@ -29,6 +32,14 @@ public class User {
 
 	public void setDroits(Droits droits) {
 		this.arraylist.add(droits);
+	}
+	
+	public int getNumero_employee() {
+		return numero_employee;
+	}
+
+	public void setNumero_employee(int numero_employee) {
+		this.numero_employee = numero_employee;
 	}
 
 	public String getNom() {
