@@ -8,10 +8,10 @@ public class User {
 	private String prenom;
 	private String login;
 	private String mot_de_passe;
-
+	private ArrayList<Droits> arraylist;
 
 	public User() {
-		ArrayList<Droits> arraylist = new ArrayList<Droits>();
+		arraylist = new ArrayList<Droits>();
 	}
 
 	public User(String nom, String prenom, String login, String mot_de_passe) {
@@ -20,6 +20,15 @@ public class User {
 		this.prenom = prenom;
 		this.login = login;
 		this.mot_de_passe = mot_de_passe;
+		arraylist = new ArrayList<Droits>();
+	}
+	
+	public ArrayList<Droits> getDroits() {
+		return arraylist;
+	}
+
+	public void setDroits(Droits droits) {
+		this.arraylist.add(droits);
 	}
 
 	public String getNom() {
